@@ -3,6 +3,13 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
 
+    // for loop without initialize and increcement statement
+    int y = 0;
+    for( ; y < 15; ){
+      Console.WriteLine(y);
+      y+=3;
+    }
+
     //for loop with other arthimetic operators
     for (int x = 10; x >= 0 ; x-=2) {
       Console.WriteLine($"I have {x} days left to study.");
